@@ -1,6 +1,7 @@
 #1
 n = int(input("enter the radius"))
 area = 3.14*n*n
+
 print(area)
 #2
 m = int(input("enter the temperature in celcius"))
@@ -21,7 +22,7 @@ for i in range(1,c//2 + 1):
     if c % i == 0:
         sum = sum + i
 if sum == c:
-    print("is perfect")
+    print("if finish")
 else: 
     print("is not perfect")
 
